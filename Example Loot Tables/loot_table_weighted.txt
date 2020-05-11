@@ -1,0 +1,13 @@
+Weighted
+# Comment denoted by '#' at start of line
+# First line must be Weighted or Uniform
+# Item name and weight are separated by "!!"
+# Greatsword and long bow each have same chance of being picked
+# The chance of picking a dagger, chain mail, or scimitar (combined probablity) is equal to picking a greatsword or long bow
+# If you design weights such that they total to 100, each weight can be thought of as a percentage
+# You can have weights much higher than 100. E.g., greatsword!!990 and long bow!!10 gives long bow a 0.1% chance
+greatsword!!15
+long bow!!15
+dagger!!5
+chain mail!!5
+scimitar!!5

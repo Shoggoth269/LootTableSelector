@@ -1,0 +1,11 @@
+Uniform
+# Comment denoted by '#' at start of line
+# First line must be Weighted or Uniform
+# Uniform loot table simply parses each line as an item and uses a uniform distribution to randomly pick one
+greatsword
+long bow
+dagger
+chain mail
+scimitar
+Dragonslayer
+Magical Potato
