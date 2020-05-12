@@ -1,0 +1,10 @@
+^C:\USERS\SHOGG\.CARGO\REGISTRY\SRC\GITHUB.COM-1ECC6299DB9EC823\UI-SYS-0.1.3\LIBUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui -BD:/Repositories/LootTableSelector/loot_table_selector/target/debug/build/ui-sys-3275a93f8960724f/out/build --check-stamp-file D:/Repositories/LootTableSelector/loot_table_selector/target/debug/build/ui-sys-3275a93f8960724f/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

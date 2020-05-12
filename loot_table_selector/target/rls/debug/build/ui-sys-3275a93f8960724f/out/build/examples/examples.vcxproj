@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{135A24E9-9E60-30FD-94B5-4C0836EE055B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\CMakeFiles\851691f4ab141508110fffaf21abfd38\examples.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\controlgallery.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\histogram.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\cpp-multithread.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\drawtext.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\timer.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Debug\datetime.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\controlgallery.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\histogram.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\cpp-multithread.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\drawtext.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\timer.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\Release\datetime.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\controlgallery.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\histogram.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\cpp-multithread.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\drawtext.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\timer.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\MinSizeRel\datetime.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\controlgallery.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\histogram.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\cpp-multithread.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\drawtext.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\timer.exe;D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\out\RelWithDebInfo\datetime.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Shogg\.cargo\registry\src\github.com-1ecc6299db9ec823\ui-sys-0.1.3\libui\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui -BD:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build --check-stamp-file D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui -BD:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build --check-stamp-file D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui -BD:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build --check-stamp-file D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Shogg/.cargo/registry/src/github.com-1ecc6299db9ec823/ui-sys-0.1.3/libui -BD:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build --check-stamp-file D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\ZERO_CHECK.vcxproj">
+      <Project>{31315221-0ED9-3023-B1FF-9F12FA87B32F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\controlgallery.vcxproj">
+      <Project>{C0A23B88-D2B6-3181-B46A-9AC0598901DD}</Project>
+      <Name>controlgallery</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\cpp-multithread.vcxproj">
+      <Project>{15CC31F1-7CF6-3B97-8A1B-E5B8128F79A9}</Project>
+      <Name>cpp-multithread</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\datetime.vcxproj">
+      <Project>{90E689D2-48B7-3C32-9C63-0E8EA7F5578A}</Project>
+      <Name>datetime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\drawtext.vcxproj">
+      <Project>{F152C9CA-6CD5-3899-B057-F398D467B500}</Project>
+      <Name>drawtext</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\histogram.vcxproj">
+      <Project>{682BC5DD-CB9A-3090-9368-E7D788F420F0}</Project>
+      <Name>histogram</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\examples\timer.vcxproj">
+      <Project>{2DF11027-C0A6-36CA-9C25-3236BF0CE94B}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

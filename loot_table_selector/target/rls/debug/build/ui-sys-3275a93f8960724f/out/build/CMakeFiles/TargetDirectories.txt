@@ -1,0 +1,11 @@
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/CMakeFiles/libui.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/CMakeFiles/ZERO_CHECK.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/test/CMakeFiles/tester.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/datetime.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/controlgallery.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/histogram.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/examples.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/cpp-multithread.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/drawtext.dir
+D:/Repositories/LootTableSelector/loot_table_selector/target/rls/debug/build/ui-sys-3275a93f8960724f/out/build/examples/CMakeFiles/timer.dir

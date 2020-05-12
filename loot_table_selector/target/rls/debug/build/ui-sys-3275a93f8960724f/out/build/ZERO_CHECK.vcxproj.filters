@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\LootTableSelector\loot_table_selector\target\rls\debug\build\ui-sys-3275a93f8960724f\out\build\CMakeFiles\e9ef504a94efbde0fa094d8b382c000d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E09478D-0F15-3EE8-A04A-78E7E2B34D9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

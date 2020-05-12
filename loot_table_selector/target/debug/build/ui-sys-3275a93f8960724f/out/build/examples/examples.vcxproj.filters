@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\LootTableSelector\loot_table_selector\target\debug\build\ui-sys-3275a93f8960724f\out\build\CMakeFiles\1933b7feba054a68e63b307c17e82293\examples.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shogg\.cargo\registry\src\github.com-1ecc6299db9ec823\ui-sys-0.1.3\libui\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Repositories\LootTableSelector\loot_table_selector\target\debug\build\ui-sys-3275a93f8960724f\out\build\examples\CMakeFiles\examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E26C9F20-0438-33DF-A125-C827D9AF4EE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
